@@ -129,9 +129,12 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given(string.Format("User inputs {0} string", input), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 9
- testRunner.When("the validation method is run", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("the user input goes through initial preparation", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 10
+ testRunner.When("the validation method is run", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 11
  testRunner.Then(string.Format("the {0} message is shown", response), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -144,11 +147,11 @@ this.ScenarioInitialize(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "1 000 000 000")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Input", "1 000 000 000")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "The number is too big")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "Number is too big, please provide a number less than 1 000 000 000")]
         public virtual void InvalidInput_1000000000()
         {
 #line 7
-this.InvalidInput("1 000 000 000", "The number is too big", ((string[])(null)));
+this.InvalidInput("1 000 000 000", "Number is too big, please provide a number less than 1 000 000 000", ((string[])(null)));
 #line hidden
         }
         
@@ -158,11 +161,11 @@ this.InvalidInput("1 000 000 000", "The number is too big", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "1,999")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Input", "1,999")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "The number of cents is too big")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "Too many cents. Please provide a value with cents from 0 to 99")]
         public virtual void InvalidInput_1999()
         {
 #line 7
-this.InvalidInput("1,999", "The number of cents is too big", ((string[])(null)));
+this.InvalidInput("1,999", "Too many cents. Please provide a value with cents from 0 to 99", ((string[])(null)));
 #line hidden
         }
         
@@ -172,11 +175,24 @@ this.InvalidInput("1,999", "The number of cents is too big", ((string[])(null)))
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "NotANumber")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Input", "NotANumber")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "Not a number")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "Not a number, please provide a valid number")]
         public virtual void InvalidInput_NotANumber()
         {
 #line 7
-this.InvalidInput("NotANumber", "Not a number", ((string[])(null)));
+this.InvalidInput("NotANumber", "Not a number, please provide a valid number", ((string[])(null)));
+#line hidden
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Invalid input: ")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Validate")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Input", "")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Response", "Not a number, please provide a valid number")]
+        public virtual void InvalidInput_()
+        {
+#line 7
+this.InvalidInput("", "Not a number, please provide a valid number", ((string[])(null)));
 #line hidden
         }
     }

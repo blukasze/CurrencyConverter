@@ -1,4 +1,5 @@
-﻿using CurrencyConverter.Validator;
+﻿using CurrencyConverter.Converter;
+using CurrencyConverter.Validator;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -19,13 +20,19 @@ namespace CurrencyConverter.Tests.Steps
             input = userInput;    
         }
 
+        [Given(@"the user input goes through initial preparation")]
+        public void GivenTheUserInputGoesThroughInitialPreparation()
+        {
+            input = Preparator.PrepareInput(input);
+        }
+
         [When(@"the validation method is run")]
         public void WhenTheValidationMethodIsRun()
         {
             validatorResponse = ValidatorEngine.Validate(input);
         }
 
-        [Then(@"the (.*) is shown")]
+        [Then(@"the (.*) message is shown")]
         public void ThenTheNotANumberMessageIsShown(string expectedMessage)
         {
             validatorResponse.isValid.Should().BeFalse();
