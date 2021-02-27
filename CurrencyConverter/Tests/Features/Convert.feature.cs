@@ -571,6 +571,22 @@ this.ConvertValidNumber("80", "eighty dollars", ((string[])(null)));
 this.ConvertValidNumber("90", "ninety dollars", ((string[])(null)));
 #line hidden
         }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convert valid number: Variant 31")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 31")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "999 999 999.99")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred n" +
+            "inety-nine dollars and ninety-nine cents")]
+        public virtual void ConvertValidNumber_Variant31()
+        {
+#line 7
+this.ConvertValidNumber("999 999 999.99", "nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred n" +
+                    "inety-nine dollars and ninety-nine cents", ((string[])(null)));
+#line hidden
+        }
     }
 }
 #pragma warning restore
