@@ -7,7 +7,7 @@ namespace CurrencyConverter
 {
     class ValidatorEngine
     {
-        public static Valid IsValid(string input)
+        public static Valid Validate(string input)
         {
             return new Valid() {
                 isValid = true,

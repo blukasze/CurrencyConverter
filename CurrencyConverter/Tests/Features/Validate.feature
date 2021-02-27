@@ -5,7 +5,7 @@
 
 @mytag
 Scenario Outline: Invalid input
-	Given the input is <Input>
+	Given User inputs <Input> string
 	When the validation method is run
 	Then the <Response> message is shown
 

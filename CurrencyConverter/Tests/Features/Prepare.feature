@@ -10,7 +10,7 @@ Scenario: Have dot instead of coma
 	Then dot is changed to coma
 
 Scenario Outline: Whitespace characters removed
-	Given the <Input> is 
+	Given the user inputs <Input>
 	When preapare method is run
 	Then the result is <Result>
 
@@ -22,7 +22,7 @@ Scenario Outline: Whitespace characters removed
 Scenario: Combination of preparation
 	Given the value has dot and whitespace
 	When preapare method is run
-	Then the result is with coma and without whitespace
+	Then the result contain coma and no whitespace
 
 Scenario: Number of cents is one digit
 	Given the cents value is represented by one number

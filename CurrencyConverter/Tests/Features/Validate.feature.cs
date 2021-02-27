@@ -126,7 +126,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 8
- testRunner.Given(string.Format("the input is {0}", input), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("User inputs {0} string", input), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 9
  testRunner.When("the validation method is run", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CurrencyConverter.Validator;
+using FluentAssertions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using TechTalk.SpecFlow;
@@ -8,22 +10,26 @@ namespace CurrencyConverter.Tests.Steps
     [Binding]
     class ValidateSteps
     {
-        [Given(@"the input is dsadsad")]
-        public void GivenTheInputIsDsadsad()
+        string input;
+        Valid validatorResponse;
+
+        [Given(@"User inputs (.*) string")]
+        public void GivenTheInputIsDsadsad(string userInput)
         {
-            ScenarioContext.Current.Pending();
+            input = userInput;    
         }
 
         [When(@"the validation method is run")]
         public void WhenTheValidationMethodIsRun()
         {
-            ScenarioContext.Current.Pending();
+            validatorResponse = ValidatorEngine.Validate(input);
         }
 
-        [Then(@"the Not a number message is shown")]
-        public void ThenTheNotANumberMessageIsShown()
+        [Then(@"the (.*) is shown")]
+        public void ThenTheNotANumberMessageIsShown(string expectedMessage)
         {
-            ScenarioContext.Current.Pending();
+            validatorResponse.isValid.Should().BeFalse();
+            validatorResponse.Message.Should().Be(expectedMessage);
         }
 
     }

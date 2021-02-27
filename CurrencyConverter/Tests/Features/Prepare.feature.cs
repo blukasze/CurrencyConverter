@@ -163,7 +163,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 13
- testRunner.Given(string.Format("the {0} is", input), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("the user inputs {0}", input), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 14
  testRunner.When("preapare method is run", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -236,7 +236,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("preapare method is run", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 25
- testRunner.Then("the result is with coma and without whitespace", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the result contain coma and no whitespace", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

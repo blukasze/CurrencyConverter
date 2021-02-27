@@ -18,7 +18,7 @@ namespace CurrencyConverter.Tests.Steps
         [Given(@"the cent value is separated by dot")]
         public void GivenTheCentValueIsSeparatedByDot()
         {
-            input = "0.1";
+            input = "0.10";
         }
 
         [When(@"preapare method is run")]
@@ -30,10 +30,10 @@ namespace CurrencyConverter.Tests.Steps
         [Then(@"dot is changed to coma")]
         public void ThenDotIsChangedToComa()
         {
-            result.Should().Be("0,1");
+            result.Should().Be("0,10");
         }
 
-        [Given(@"the (.*) is")]
+        [Given(@"the user inputs (.*)")]
         public void GivenTheIs(string rawInput)
         {
             input = rawInput;
@@ -51,7 +51,7 @@ namespace CurrencyConverter.Tests.Steps
             input = " 46 213.33 ";
         }
 
-        [Then(@"the result is with coma and without whitespace")]
+        [Then(@"the result contain coma and no whitespace")]
         public void ThenTheResultIsWithComaAndWithoutWhitespace()
         {
             result.Should().Be("46213,33");
