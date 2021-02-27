@@ -5,9 +5,9 @@ using System.Text;
 
 namespace CurrencyConverter
 {
-    class ValidatorEngine
+    class ValidatorEngine : IValidator
     {
-        public static Valid Validate(string input)
+        public Valid Validate(string input)
         {
             var number = isValidNumber(input);
             if (!number.isValid)
@@ -29,7 +29,7 @@ namespace CurrencyConverter
             };
         }
 
-        private static Valid isNumberOfCentsCorrect(string input)
+        private Valid isNumberOfCentsCorrect(string input)
         {
             var chunks = input.Split(',');
             if (chunks.Length > 2)
@@ -64,7 +64,7 @@ namespace CurrencyConverter
             };
         }
 
-        private static Valid isValidNumber(string input)
+        private Valid isValidNumber(string input)
         {
             var isValid = false;
             var message = "";

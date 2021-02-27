@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CurrencyConverter.Converter
 {
-    class Preparator
+    class Preparator : IPreparator
     {
-        public static string PrepareInput(string rawInput)
+        public string PrepareInput(string rawInput)
         {
             string result = rawInput.Replace(".", ",");
             result = Regex.Replace(result, @"\s+", "");
@@ -17,7 +17,7 @@ namespace CurrencyConverter.Converter
             return result;
         }
 
-        private static string AddZero(string rawInput)
+        private string AddZero(string rawInput)
         {
             if (NeedAddition(rawInput))
             {
@@ -26,7 +26,7 @@ namespace CurrencyConverter.Converter
             else return rawInput;
         }
 
-        private static bool NeedAddition(string rawInput)
+        private bool NeedAddition(string rawInput)
         {
             var lastTwoDigits = GetLast(rawInput, 2);
             if (lastTwoDigits.Length == 2 && lastTwoDigits.StartsWith(","))
@@ -35,7 +35,7 @@ namespace CurrencyConverter.Converter
             } return false;
         }
 
-        private static string GetLast(string source, int tail_length)
+        private string GetLast(string source, int tail_length)
         {
             if (tail_length >= source.Length)
                 return source;

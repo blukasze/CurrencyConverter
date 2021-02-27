@@ -93,6 +93,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converter\DollarConverterEngine.cs" />
+    <Compile Include="Converter\ICurrencyConverter.cs" />
+    <Compile Include="Converter\IPreparator.cs" />
     <Compile Include="Converter\Preparator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,6 +105,7 @@
     <Compile Include="Tests\Steps\ConvertSteps.cs" />
     <Compile Include="Tests\Steps\PrepareSteps.cs" />
     <Compile Include="Tests\Steps\ValidateSteps.cs" />
+    <Compile Include="Validator\IValidator.cs" />
     <Compile Include="Validator\Valid.cs" />
     <Compile Include="Validator\ValidatorEngine.cs" />
   </ItemGroup>
