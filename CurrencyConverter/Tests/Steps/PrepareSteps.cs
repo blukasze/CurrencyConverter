@@ -24,7 +24,7 @@ namespace CurrencyConverter.Tests.Steps
         [When(@"preapare method is run")]
         public void WhenPreapareMethodIsRun()
         {
-            result = Preparator.PrepareInput(input);
+            result = new Preparator().PrepareInput(input);
         }
 
         [Then(@"dot is changed to coma")]
