@@ -72,7 +72,7 @@ namespace CurrencyConverter
 
             try
             {
-                inputAsNumber = double.Parse(input);
+                inputAsNumber = double.Parse(input.Replace(",","."));
                 if (inputAsNumber >= 1000000000)
                 {
                     message = "Number is too big, please provide a number less than 1 000 000 000";
