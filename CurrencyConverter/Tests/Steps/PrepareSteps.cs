@@ -66,7 +66,7 @@ namespace CurrencyConverter.Tests.Steps
         [Then(@"0 should be added to the end")]
         public void ThenShouldBeAddedToTheEnd()
         {
-            result = "1,10";
+            result.Should().Be("1,10");
         }
 
 
