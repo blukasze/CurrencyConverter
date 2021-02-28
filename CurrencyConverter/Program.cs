@@ -28,6 +28,7 @@ namespace CurrencyConverter
                 input = Console.ReadLine();
                 var outputMessage = converter.ConvertToWordFormat(input);
                 Console.WriteLine("Converted number is: " + outputMessage);
+                Console.WriteLine("Try again? ('q' for quit)");
             }
         }
     }

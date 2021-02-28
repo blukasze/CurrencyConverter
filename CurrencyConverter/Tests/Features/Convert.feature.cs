@@ -620,11 +620,11 @@ this.ConvertValidNumber("45 100", "forty-five thousand one hundred dollars", ((s
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 34")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 101")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred one dollar")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred one dollars")]
         public virtual void ConvertValidNumber_Variant34()
         {
 #line 7
-this.ConvertValidNumber("45 101", "forty-five thousand one hundred one dollar", ((string[])(null)));
+this.ConvertValidNumber("45 101", "forty-five thousand one hundred one dollars", ((string[])(null)));
 #line hidden
         }
         

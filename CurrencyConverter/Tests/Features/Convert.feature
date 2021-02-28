@@ -45,6 +45,6 @@ Scenario Outline: Convert valid number
 		| 80             | eighty dollars                                                                                                            |
 		| 90             | ninety dollars                                                                                                            |
 		| 45 100         | forty-five thousand one hundred dollars                                                                                   |
-		| 45 101         | forty-five thousand one hundred one dollar                                                                                |
+		| 45 101         | forty-five thousand one hundred one dollars                                                                               |
 		| 45 131         | forty-five thousand one hundred thirty-one dollars                                                                        |
 		| 999 999 999.99 | nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred ninety-nine dollars and ninety-nine cents |

@@ -52,7 +52,8 @@ namespace CurrencyConverter.Converter
                 if (part.Contains(","))
                 {
                     result += ConvertCents(part);
-                } else
+                }
+                else
                 {
                     result += ConvertionTable.Single(part[0]) + " hundred ";
                     result += ConvertDouble(part.Substring(1, 2));
@@ -68,7 +69,7 @@ namespace CurrencyConverter.Converter
             }
             return result;
         }
-        
+
         private string ConvertCents(string part)
         {
             if (part.Equals(",01"))
@@ -126,18 +127,9 @@ namespace CurrencyConverter.Converter
             string tempInput = preparedInput;
 
             tempInput = RemoveCents(tempInput);
-            
-            if (tempInput.Last().Equals('1'))
+            if (tempInput.Equals("1"))
             {
-                if (tempInput.Length >= 3 && tempInput.Substring(tempInput.Length - 2, 1).Equals("0"))
-                {
-                    return returnMessage.Replace("dollars", "dollar");
-                }
-                if (tempInput.Length == 1)
-                {
-                    return returnMessage.Replace("dollars", "dollar");
-                }
-                return returnMessage;
+                return returnMessage.Replace("dollars", "dollar");
             }
             else return returnMessage;
         }
