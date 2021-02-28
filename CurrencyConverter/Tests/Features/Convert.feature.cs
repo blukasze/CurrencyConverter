@@ -213,12 +213,12 @@ this.ConvertValidNumber("1", "one dollar", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 5")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "2")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "two dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "1.00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "one dollar")]
         public virtual void ConvertValidNumber_Variant5()
         {
 #line 7
-this.ConvertValidNumber("2", "two dollars", ((string[])(null)));
+this.ConvertValidNumber("1.00", "one dollar", ((string[])(null)));
 #line hidden
         }
         
@@ -227,12 +227,12 @@ this.ConvertValidNumber("2", "two dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 6")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "3")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "three dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "2")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "two dollars")]
         public virtual void ConvertValidNumber_Variant6()
         {
 #line 7
-this.ConvertValidNumber("3", "three dollars", ((string[])(null)));
+this.ConvertValidNumber("2", "two dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -241,12 +241,12 @@ this.ConvertValidNumber("3", "three dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 7")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "4")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "four dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "3")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "three dollars")]
         public virtual void ConvertValidNumber_Variant7()
         {
 #line 7
-this.ConvertValidNumber("4", "four dollars", ((string[])(null)));
+this.ConvertValidNumber("3", "three dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -255,12 +255,12 @@ this.ConvertValidNumber("4", "four dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 8")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "5")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "five dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "4")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "four dollars")]
         public virtual void ConvertValidNumber_Variant8()
         {
 #line 7
-this.ConvertValidNumber("5", "five dollars", ((string[])(null)));
+this.ConvertValidNumber("4", "four dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -269,12 +269,12 @@ this.ConvertValidNumber("5", "five dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 9")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "6")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "six dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "5")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "five dollars")]
         public virtual void ConvertValidNumber_Variant9()
         {
 #line 7
-this.ConvertValidNumber("6", "six dollars", ((string[])(null)));
+this.ConvertValidNumber("5", "five dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -283,12 +283,12 @@ this.ConvertValidNumber("6", "six dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 10")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "7")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "seven dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "6")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "six dollars")]
         public virtual void ConvertValidNumber_Variant10()
         {
 #line 7
-this.ConvertValidNumber("7", "seven dollars", ((string[])(null)));
+this.ConvertValidNumber("6", "six dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -297,12 +297,12 @@ this.ConvertValidNumber("7", "seven dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 11")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "8")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eight dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "7")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "seven dollars")]
         public virtual void ConvertValidNumber_Variant11()
         {
 #line 7
-this.ConvertValidNumber("8", "eight dollars", ((string[])(null)));
+this.ConvertValidNumber("7", "seven dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -311,12 +311,12 @@ this.ConvertValidNumber("8", "eight dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 12")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "9")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "nine dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "8")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eight dollars")]
         public virtual void ConvertValidNumber_Variant12()
         {
 #line 7
-this.ConvertValidNumber("9", "nine dollars", ((string[])(null)));
+this.ConvertValidNumber("8", "eight dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -325,12 +325,12 @@ this.ConvertValidNumber("9", "nine dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 13")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "10")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "ten dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "9")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "nine dollars")]
         public virtual void ConvertValidNumber_Variant13()
         {
 #line 7
-this.ConvertValidNumber("10", "ten dollars", ((string[])(null)));
+this.ConvertValidNumber("9", "nine dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -339,12 +339,12 @@ this.ConvertValidNumber("10", "ten dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 14")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "11")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eleven dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "10")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "ten dollars")]
         public virtual void ConvertValidNumber_Variant14()
         {
 #line 7
-this.ConvertValidNumber("11", "eleven dollars", ((string[])(null)));
+this.ConvertValidNumber("10", "ten dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -353,12 +353,12 @@ this.ConvertValidNumber("11", "eleven dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 15")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "12")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "twelve dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "11")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eleven dollars")]
         public virtual void ConvertValidNumber_Variant15()
         {
 #line 7
-this.ConvertValidNumber("12", "twelve dollars", ((string[])(null)));
+this.ConvertValidNumber("11", "eleven dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -367,12 +367,12 @@ this.ConvertValidNumber("12", "twelve dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 16")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "13")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "thirteen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "12")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "twelve dollars")]
         public virtual void ConvertValidNumber_Variant16()
         {
 #line 7
-this.ConvertValidNumber("13", "thirteen dollars", ((string[])(null)));
+this.ConvertValidNumber("12", "twelve dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -381,12 +381,12 @@ this.ConvertValidNumber("13", "thirteen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 17")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "14")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "fourteen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "13")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "thirteen dollars")]
         public virtual void ConvertValidNumber_Variant17()
         {
 #line 7
-this.ConvertValidNumber("14", "fourteen dollars", ((string[])(null)));
+this.ConvertValidNumber("13", "thirteen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -395,12 +395,12 @@ this.ConvertValidNumber("14", "fourteen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 18")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "15")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "fifteen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "14")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "fourteen dollars")]
         public virtual void ConvertValidNumber_Variant18()
         {
 #line 7
-this.ConvertValidNumber("15", "fifteen dollars", ((string[])(null)));
+this.ConvertValidNumber("14", "fourteen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -409,12 +409,12 @@ this.ConvertValidNumber("15", "fifteen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 19")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "16")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "sixteen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "15")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "fifteen dollars")]
         public virtual void ConvertValidNumber_Variant19()
         {
 #line 7
-this.ConvertValidNumber("16", "sixteen dollars", ((string[])(null)));
+this.ConvertValidNumber("15", "fifteen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -423,12 +423,12 @@ this.ConvertValidNumber("16", "sixteen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 20")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "17")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "seventeen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "16")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "sixteen dollars")]
         public virtual void ConvertValidNumber_Variant20()
         {
 #line 7
-this.ConvertValidNumber("17", "seventeen dollars", ((string[])(null)));
+this.ConvertValidNumber("16", "sixteen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -437,12 +437,12 @@ this.ConvertValidNumber("17", "seventeen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 21")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "18")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eighteen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "17")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "seventeen dollars")]
         public virtual void ConvertValidNumber_Variant21()
         {
 #line 7
-this.ConvertValidNumber("18", "eighteen dollars", ((string[])(null)));
+this.ConvertValidNumber("17", "seventeen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -451,12 +451,12 @@ this.ConvertValidNumber("18", "eighteen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 22")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "19")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "nineteen dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "18")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eighteen dollars")]
         public virtual void ConvertValidNumber_Variant22()
         {
 #line 7
-this.ConvertValidNumber("19", "nineteen dollars", ((string[])(null)));
+this.ConvertValidNumber("18", "eighteen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -465,12 +465,12 @@ this.ConvertValidNumber("19", "nineteen dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 23")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "20")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "twenty dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "19")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "nineteen dollars")]
         public virtual void ConvertValidNumber_Variant23()
         {
 #line 7
-this.ConvertValidNumber("20", "twenty dollars", ((string[])(null)));
+this.ConvertValidNumber("19", "nineteen dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -479,12 +479,12 @@ this.ConvertValidNumber("20", "twenty dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 24")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "25,1")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "twenty-five dollars and ten cents")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "20")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "twenty dollars")]
         public virtual void ConvertValidNumber_Variant24()
         {
 #line 7
-this.ConvertValidNumber("25,1", "twenty-five dollars and ten cents", ((string[])(null)));
+this.ConvertValidNumber("20", "twenty dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -493,12 +493,12 @@ this.ConvertValidNumber("25,1", "twenty-five dollars and ten cents", ((string[])
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 25")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "30")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "thirty dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "25,1")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "twenty-five dollars and ten cents")]
         public virtual void ConvertValidNumber_Variant25()
         {
 #line 7
-this.ConvertValidNumber("30", "thirty dollars", ((string[])(null)));
+this.ConvertValidNumber("25,1", "twenty-five dollars and ten cents", ((string[])(null)));
 #line hidden
         }
         
@@ -507,12 +507,12 @@ this.ConvertValidNumber("30", "thirty dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 26")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "40")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "30")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "thirty dollars")]
         public virtual void ConvertValidNumber_Variant26()
         {
 #line 7
-this.ConvertValidNumber("40", "forty dollars", ((string[])(null)));
+this.ConvertValidNumber("30", "thirty dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -521,12 +521,12 @@ this.ConvertValidNumber("40", "forty dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 27")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "50")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "fifty dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "40")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty dollars")]
         public virtual void ConvertValidNumber_Variant27()
         {
 #line 7
-this.ConvertValidNumber("50", "fifty dollars", ((string[])(null)));
+this.ConvertValidNumber("40", "forty dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -535,12 +535,12 @@ this.ConvertValidNumber("50", "fifty dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 28")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "60")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "sixty dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "50")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "fifty dollars")]
         public virtual void ConvertValidNumber_Variant28()
         {
 #line 7
-this.ConvertValidNumber("60", "sixty dollars", ((string[])(null)));
+this.ConvertValidNumber("50", "fifty dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -549,12 +549,12 @@ this.ConvertValidNumber("60", "sixty dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 29")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "70")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "seventy dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "60")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "sixty dollars")]
         public virtual void ConvertValidNumber_Variant29()
         {
 #line 7
-this.ConvertValidNumber("70", "seventy dollars", ((string[])(null)));
+this.ConvertValidNumber("60", "sixty dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -563,12 +563,12 @@ this.ConvertValidNumber("70", "seventy dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 30")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "80")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eighty dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "70")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "seventy dollars")]
         public virtual void ConvertValidNumber_Variant30()
         {
 #line 7
-this.ConvertValidNumber("80", "eighty dollars", ((string[])(null)));
+this.ConvertValidNumber("70", "seventy dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -577,12 +577,12 @@ this.ConvertValidNumber("80", "eighty dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 31")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "90")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "ninety dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "80")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "eighty dollars")]
         public virtual void ConvertValidNumber_Variant31()
         {
 #line 7
-this.ConvertValidNumber("90", "ninety dollars", ((string[])(null)));
+this.ConvertValidNumber("80", "eighty dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -591,12 +591,12 @@ this.ConvertValidNumber("90", "ninety dollars", ((string[])(null)));
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 32")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 100")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "90")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "ninety dollars")]
         public virtual void ConvertValidNumber_Variant32()
         {
 #line 7
-this.ConvertValidNumber("45 100", "forty-five thousand one hundred dollars", ((string[])(null)));
+this.ConvertValidNumber("90", "ninety dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -605,12 +605,12 @@ this.ConvertValidNumber("45 100", "forty-five thousand one hundred dollars", ((s
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 33")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 101")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred one dollar")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 100")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred dollars")]
         public virtual void ConvertValidNumber_Variant33()
         {
 #line 7
-this.ConvertValidNumber("45 101", "forty-five thousand one hundred one dollar", ((string[])(null)));
+this.ConvertValidNumber("45 100", "forty-five thousand one hundred dollars", ((string[])(null)));
 #line hidden
         }
         
@@ -619,12 +619,12 @@ this.ConvertValidNumber("45 101", "forty-five thousand one hundred one dollar", 
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 34")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 131")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred thirty-one dollars")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 101")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred one dollar")]
         public virtual void ConvertValidNumber_Variant34()
         {
 #line 7
-this.ConvertValidNumber("45 131", "forty-five thousand one hundred thirty-one dollars", ((string[])(null)));
+this.ConvertValidNumber("45 101", "forty-five thousand one hundred one dollar", ((string[])(null)));
 #line hidden
         }
         
@@ -633,10 +633,24 @@ this.ConvertValidNumber("45 131", "forty-five thousand one hundred thirty-one do
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 35")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "45 131")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "forty-five thousand one hundred thirty-one dollars")]
+        public virtual void ConvertValidNumber_Variant35()
+        {
+#line 7
+this.ConvertValidNumber("45 131", "forty-five thousand one hundred thirty-one dollars", ((string[])(null)));
+#line hidden
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convert valid number: Variant 36")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convert")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "Variant 36")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Number", "999 999 999.99")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Result", "nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred n" +
             "inety-nine dollars and ninety-nine cents")]
-        public virtual void ConvertValidNumber_Variant35()
+        public virtual void ConvertValidNumber_Variant36()
         {
 #line 7
 this.ConvertValidNumber("999 999 999.99", "nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred n" +

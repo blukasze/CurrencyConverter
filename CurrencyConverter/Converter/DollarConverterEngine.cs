@@ -51,14 +51,7 @@ namespace CurrencyConverter.Converter
             {
                 if (part.Contains(","))
                 {
-                    if (part.Equals(",01"))
-                    {
-                        result += " and one cent";
-                    }
-                    else
-                    {
-                        result += " and " + ConvertDouble(part.Substring(1, 2)) + " cents";
-                    }
+                    result += ConvertCents(part);
                 } else
                 {
                     result += ConvertionTable.Single(part[0]) + " hundred ";
@@ -74,6 +67,22 @@ namespace CurrencyConverter.Converter
                 result += ConvertionTable.Single(part[0]);
             }
             return result;
+        }
+        
+        private string ConvertCents(string part)
+        {
+            if (part.Equals(",01"))
+            {
+                return " and one cent";
+            }
+            if (part.Equals(",00"))
+            {
+                return "";
+            }
+            else
+            {
+                return " and " + ConvertDouble(part.Substring(1, 2)) + " cents";
+            }
         }
 
         private string ConvertDouble(string part)
@@ -115,10 +124,9 @@ namespace CurrencyConverter.Converter
         private string FixOneDollar(string returnMessage, string preparedInput)
         {
             string tempInput = preparedInput;
-            if (ContainCents(tempInput))
-            {
-                tempInput = tempInput.Replace(tempInput.Substring(tempInput.Length - 3), "");
-            }
+
+            tempInput = RemoveCents(tempInput);
+            
             if (tempInput.Last().Equals('1'))
             {
                 if (tempInput.Length >= 3 && tempInput.Substring(tempInput.Length - 2, 1).Equals("0"))
@@ -132,6 +140,15 @@ namespace CurrencyConverter.Converter
                 return returnMessage;
             }
             else return returnMessage;
+        }
+
+        private string RemoveCents(string s)
+        {
+            if (ContainCents(s))
+            {
+                return s.Replace(s.Substring(s.Length - 3), "");
+            }
+            return s;
         }
 
         private string Reverse(string s)

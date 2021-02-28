@@ -14,10 +14,10 @@ Scenario Outline: Whitespace characters removed
 	When preapare method is run
 	Then the result is <Result>
 
-	Examples: 
-	| Input    | Result |
-	| 1 999 21 | 199921 |
-	| 1		43    | 143    |
+	Examples:
+		| Input    | Result |
+		| 1 999 21 | 199921 |
+		| 1		43    | 143    |
 
 Scenario: Combination of preparation
 	Given the value has dot and whitespace
@@ -28,3 +28,17 @@ Scenario: Number of cents is one digit
 	Given the cents value is represented by one number
 	When preapare method is run
 	Then 0 should be added to the end
+
+Scenario Outline: Multiple zeroes
+	Given the user inputs <Input>
+	When preapare method is run
+	Then the result is <Result>
+
+	Examples:
+		| Input  | Result |
+		| 0      | 0      |
+		| 00     | 0      |
+		| 000    | 0      |
+		| 0.00   | 0,00   |
+		| 00.00  | 0,00   |
+		| 000.00 | 0,00   |

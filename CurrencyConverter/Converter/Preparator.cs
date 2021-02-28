@@ -13,11 +13,25 @@ namespace CurrencyConverter.Converter
         {
             string result = rawInput.Replace(".", ",");
             result = Regex.Replace(result, @"\s+", "");
-            result = AddZero(result);
+            result = AddZeroToCents(result);
+            if (!(result.Length == 0))
+            {
+                result = TrimZeroes(result);
+            }
             return result;
         }
 
-        private string AddZero(string rawInput)
+        private string TrimZeroes(string rawInput)
+        {
+            rawInput = rawInput.TrimStart('0');
+            if (rawInput.StartsWith(",") || rawInput.StartsWith(".") || rawInput.Length == 0)
+            {
+                rawInput = rawInput.Insert(0, "0");
+            }
+            return rawInput;
+        }
+
+        private string AddZeroToCents(string rawInput)
         {
             if (NeedAddition(rawInput))
             {

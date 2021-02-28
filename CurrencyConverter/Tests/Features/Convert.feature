@@ -16,6 +16,7 @@ Scenario Outline: Convert valid number
 		| 0,1            | zero dollars and ten cents                                                                                                |
 		| 0.01           | zero dollars and one cent                                                                                                 |
 		| 1              | one dollar                                                                                                                |
+		| 1.00           | one dollar                                                                                                                |
 		| 2              | two dollars                                                                                                               |
 		| 3              | three dollars                                                                                                             |
 		| 4              | four dollars                                                                                                              |
