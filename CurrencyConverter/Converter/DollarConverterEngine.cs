@@ -21,10 +21,16 @@ namespace CurrencyConverter.Converter
                 return result.Message;
             }
 
+            if (IsNegative(preparedInput))
+            {
+                preparedInput = preparedInput.Replace("-", "");
+                result.Message += "minus ";
+            }
+
             List<string> numbers = SplitInParts(preparedInput, 3).ToList();
 
             int amountOfParts = numbers.Count;
-            if (ContainCents(input))
+            if (ContainCents(preparedInput))
             {
                 amountOfParts -= 1;
             }
@@ -34,6 +40,7 @@ namespace CurrencyConverter.Converter
                 result.Message += ConvertPart(number) + ConvertionTable.OrderOfMagniture(amountOfParts);
                 amountOfParts -= 1;
             }
+            result.Message = FixOneDollar(result.Message, preparedInput);
             return result.Message.Replace("  ", " ");
         }
 
@@ -44,7 +51,7 @@ namespace CurrencyConverter.Converter
             {
                 if (part.Contains(","))
                 {
-                    if (part.Equals(".01"))
+                    if (part.Equals(",01"))
                     {
                         result += " and one cent";
                     }
@@ -74,6 +81,10 @@ namespace CurrencyConverter.Converter
             var deciderInt = int.Parse(part);
             if (deciderInt < 20)
             {
+                if (deciderInt < 10 && deciderInt > 0)
+                {
+                    return ConvertionTable.Single(part[1]);
+                }
                 return ConvertionTable.Double(part);
             }
             if (deciderInt % 10 == 0)
@@ -101,6 +112,28 @@ namespace CurrencyConverter.Converter
             }
         }
 
+        private string FixOneDollar(string returnMessage, string preparedInput)
+        {
+            string tempInput = preparedInput;
+            if (ContainCents(tempInput))
+            {
+                tempInput = tempInput.Replace(tempInput.Substring(tempInput.Length - 3), "");
+            }
+            if (tempInput.Last().Equals('1'))
+            {
+                if (tempInput.Length >= 3 && tempInput.Substring(tempInput.Length - 2, 1).Equals("0"))
+                {
+                    return returnMessage.Replace("dollars", "dollar");
+                }
+                if (tempInput.Length == 1)
+                {
+                    return returnMessage.Replace("dollars", "dollar");
+                }
+                return returnMessage;
+            }
+            else return returnMessage;
+        }
+
         private string Reverse(string s)
         {
             char[] charArray = s.ToCharArray();
@@ -111,6 +144,11 @@ namespace CurrencyConverter.Converter
         private bool ContainCents(string input)
         {
             return input.Contains(",");
+        }
+
+        private bool IsNegative(string input)
+        {
+            return input.StartsWith("-");
         }
     }
 }

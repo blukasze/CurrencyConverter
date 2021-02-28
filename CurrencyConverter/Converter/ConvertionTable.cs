@@ -13,7 +13,7 @@ namespace CurrencyConverter.Converter
             switch (n)
             {
                 case 3:
-                    return " milion ";
+                    return " million ";
                 case 2:
                     return " thousand ";
                 case 1:
